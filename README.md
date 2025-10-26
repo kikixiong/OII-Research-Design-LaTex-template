@@ -2,7 +2,7 @@
 
 This repository offers a LaTeX template designed to meet academic formatting standards, primarily based on the style and content requirements of a Research Design Formative submission for the Oxford Internet Institute(OII).
 
-## Features
+##🚀 Features
 - Double Spacing: The main body of the text is fully double-spaced.
 
 - 1-Inch Margins: All margins are precisely set to 2.5 cm (1 inch) (top, bottom, left, and right).
