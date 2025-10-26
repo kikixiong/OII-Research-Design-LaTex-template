@@ -1,0 +1,92 @@
+\documentclass[12pt, letterpaper]{article} % Set 12pt font size and US letter paper size (change to a4paper if needed)
+
+% =======================================================
+% PACKAGES (PREAMBLE)
+% =======================================================
+
+\usepackage[T1]{fontenc} 
+\usepackage{newtxtext,newtxmath} 
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{natbib} 
+\usepackage{caption} 
+\usepackage{booktabs} 
+
+% =======================================================
+% FORMATTING SETUP
+% =======================================================
+
+% Set double line spacing. 
+% This command is placed here to apply to the main text. 
+% Note: The setspace package is designed to keep captions, footnotes, 
+% and list environments single-spaced, which is a common academic standard.
+\doublespacing 
+
+% Set a default font size for captions and small elements to 12pt to meet the requirement 
+% "Do not use less than 12 points, including in any tables and figures." 
+% WARNING: This overrides the standard LaTeX behavior and might look unusual 
+% for footnotes/captions, but it strictly follows the rule.
+\captionsetup{font=normalsize} % normalsize for 12pt document is 12pt
+\renewcommand{\footnotesize}{\normalsize} % Ensures footnotes are also 12pt (normalsize)
+
+% =======================================================
+% DOCUMENT START
+% =======================================================
+\begin{document}
+
+\title{Template for OII Research Design}
+\author{Your Name / Student ID}
+\date{October 2025}
+
+\maketitle 
+
+% \begin{abstract}
+% This document serves as a LaTeX template to comply with specific academic formatting rules: double-spaced, 1-inch margins, and 12-point serif font throughout. The template utilizes the \texttt{geometry}, \texttt{setspace}, and \texttt{newtxtext} packages to enforce these strict requirements. All elements, including the abstract, body text, figures, tables, and bibliography, are set to 12 points or greater.
+% \end{abstract}
+
+\section{Summary of the research}
+This template ensures strict adherence to all mandatory formatting rules, including 12-point \texttt{serif} font, a 1-inch margin on all sides, and full double-spacing \citep{smith2020example}. The combination of \texttt{geometry} and \texttt{setspace} packages controls the layout precisely. We have ensured that this text remains fully double-spaced.
+
+\section{Methodology and Results}
+
+\subsection{Table Example}
+We must ensure that all elements within tables and figures also use a font size no smaller than 12pt, as demonstrated in Table \ref{tab:example}.
+
+\begin{table}[h]
+    \centering
+    \caption{Example Table with 12pt Serif Font}
+    \label{tab:example}
+    \begin{tabular}{l c c}
+        \toprule
+        \textbf{Metric (12pt)} & \textbf{Value A (12pt)} & \textbf{Value B (12pt)} \\
+        \midrule
+        Observation 1 & 1.234 & 5.678 \\
+        Observation 2 & 9.012 & 3.456 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Figure Example}
+Figure captions must also be 12pt. The \texttt{newtxtext} package provides the appropriate serif typeface \citep[see also][]{jones2022another}.
+
+\begin{figure}[h]
+    \centering
+    % Placeholder for a graphic. Replace \rule with \includegraphics{your-image.pdf}
+    \rule{0.6\textwidth}{4cm} 
+    \caption{Example Figure with a required 12pt caption font size.}
+    \label{fig:figure_example}
+\end{figure}
+
+\section{Conclusion}
+The template successfully implements all specified formatting requirements.
+
+\newpage % Start the bibliography on a new page
+
+% =======================================================
+% BIBLIOGRAPHY
+% =======================================================
+% Use plainnat as a common bibliography style.
+\bibliographystyle{plainnat} 
+\bibliography{references} 
+
+\end{document}
