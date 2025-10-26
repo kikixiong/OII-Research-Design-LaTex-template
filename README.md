@@ -11,6 +11,7 @@ This repository offers a LaTeX template designed to meet academic formatting sta
 
 - Minimum Font Size: Ensures no font size less than 12 points is used anywhere, including within table contents, figures, and captions.
 
+<img width="774" height="1002" alt="image" src="https://github.com/user-attachments/assets/bd01a3ed-c10f-49c0-8541-fc118d368f7c" />
 
 
 
